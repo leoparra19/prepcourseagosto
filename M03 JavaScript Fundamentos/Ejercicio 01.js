@@ -5,9 +5,9 @@
 // por el correspondiente.
 
 // Crea una variable de tipo string.
-const nuevoString = 'asdasdto';
+const nuevoString = 'pito';
 
-// Crea una variable de tipo number.
+// Crea una variableer.
 const nuevoNumero = 4;
 
 // Crea una variable de tipo boolean.
