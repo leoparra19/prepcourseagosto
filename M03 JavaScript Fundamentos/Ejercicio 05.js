@@ -75,7 +75,7 @@ function esVocal(letra) {
    }else{
       return "Dato incorrecto";
    }
-}
+} 
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
