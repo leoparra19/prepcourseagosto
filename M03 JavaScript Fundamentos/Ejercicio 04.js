@@ -24,7 +24,8 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
    // Redondea "num" al entero más próximo y retórnalo.
    // Tu código:
-   return Math.ceil(num)
+   var redondeo = Math.round(num);
+   return redondeo;
 }
 
 function redondearHaciaArriba(num) {
