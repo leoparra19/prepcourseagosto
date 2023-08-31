@@ -31,8 +31,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
    // Redondea "num" hacia arriba y retórnalo.
    // Tu código:
-   var redondeoceil = math.ceil(num);
-   return redondeoceil;
+   return math.ceil(num);
 }
 
 function numeroRandom() {
