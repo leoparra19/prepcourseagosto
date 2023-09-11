@@ -212,7 +212,7 @@ function doWhile(num) {
    var ;
    do{
    for(x=0;x<8;x++);
-   }while{}
+   }while
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
