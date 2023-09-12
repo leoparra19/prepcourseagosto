@@ -209,11 +209,15 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
-   var ;
+   var contador = 0
    do{
-   for(x=0;x<8;x++);
-   }while
+      num = num + 5;
+      contador++;
+   }while(contador < 8) {
+      return num;
+   }
 }
+
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
