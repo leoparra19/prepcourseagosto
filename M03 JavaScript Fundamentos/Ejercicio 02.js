@@ -4,23 +4,27 @@
 function devolverString(string) {
    // Debe retornar un string.
    // Tu código:
+   return 'dsads';
 }
-
+console.log(devolverString());
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
+   return (x+y);
 }
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
    // Tu código:
+   return (x-y);
 }
 
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
+   
 }
 
 function multiplica(x, y) {
