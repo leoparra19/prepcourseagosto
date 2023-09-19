@@ -22,6 +22,7 @@ function mayoriaDeEdad(edad) {
       return "Allowed";
    }else return "Not allowed";
 }
+console.log(mayoriaDeEdad())
 
 function conection(status) {
    // El argumento "status" representa el estado de conexión de un usuario.
@@ -36,6 +37,8 @@ function conection(status) {
       return "Away";
    }else return "Offline";
 }
+console.log(conection())
+
 
 function saludo(idioma) {
    // Retornar un saludo en tres diferentes lenguajes:
@@ -51,6 +54,7 @@ function saludo(idioma) {
       default: return "Hola!";
    }
 }
+console.log(saludo(""))
 
 function colors(color) {
    // La función recibe un color. Retornar el string correspondiente:
@@ -69,6 +73,7 @@ function colors(color) {
       default: return "Color not found";
    }
 }
+console.log(colors(""))
 
 function esDiezOCinco(num) {
    // Retornar true si "num" es 10 o 5.
@@ -78,6 +83,7 @@ function esDiezOCinco(num) {
       return true;
    }else return false;
 }
+console.log(esDiezOCinco())
 
 function estaEnRango(num) {
    // Retornar true si "num" es menor que 50 y mayor que 20.
@@ -101,6 +107,7 @@ function esEntero(num) {
       return false;
    }
 }
+console.log(esEntero())
 
 function fizzBuzz(num) {
    // Si "num" es divisible entre 3, retorna "fizz".
@@ -116,6 +123,7 @@ if(num%3===0&&num%5===0){
    return "buzz";
 }else return false;
 }
+console.log(fizzBuzz())
 
 
 function operadoresLogicos(num1, num2, num3) {
@@ -132,6 +140,7 @@ if(num1 === 0 || num2 === 0 || num3 === 0){ return "Error";
 }else if(num3>num1 && num3>num2){ return num3+1;
 }else return false;
 }
+   console.log(operadoresLogicos(0,0,0))
 
 function esPrimo(num) {
    // Retornar true si "num" es primo.
@@ -159,6 +168,7 @@ function esVerdadero(valor) {
    if(valor){ return "Soy verdadero";
 }else return "Soy falso";
 }
+console.log(esVerdadero())
 
 function tieneTresDigitos(num) {
    // Si el número recibido tiene tres dígitos retornar true.
@@ -167,6 +177,7 @@ function tieneTresDigitos(num) {
    if(num>99 && num<1000){ return true;
    }else return false;
 }
+console.log(tieneTresDigitos(1000))
 
 function doWhile(num) {
    // Implementar una función que aumente el valor recibido en 5 hasta un límite de 8 veces.
@@ -182,6 +193,7 @@ function doWhile(num) {
    return num;
 }
 console.log(doWhile(0));
+
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
@@ -199,4 +211,4 @@ module.exports = {
    esVerdadero,
    tieneTresDigitos,
    doWhile,
-};
+}

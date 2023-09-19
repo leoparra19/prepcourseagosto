@@ -11,7 +11,7 @@ function devolverString(string) {
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
-   return (x+y);
+   return x + y;
 }
 
 function resta(x, y) {
@@ -29,9 +29,9 @@ function divide(x, y) {
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
    // Tu código:
-   return (x*y)
+   return (x*y);
 }
-
+console.log(multiplica(2,2));
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
